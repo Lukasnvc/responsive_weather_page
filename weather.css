@@ -1,0 +1,133 @@
+* {
+  font-family: "Roboto", sans-serif;
+  color: rgb(124, 124, 124);
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1240px) {
+  .container .head {
+    border-bottom: 1px solid gray;
+  }
+}
+.container .head p, .container .head h1 {
+  margin: 2px 0;
+}
+.container .head .headBottom {
+  display: flex;
+  gap: 5%;
+}
+.container .head .headBottom .pictureTemp {
+  display: flex;
+  flex: 0 0 60%;
+}
+.container .head .headBottom .pictureTemp img {
+  width: 100%;
+}
+.container .head .headBottom .pictureTemp h2 {
+  align-self: center;
+  font-size: 3rem;
+  font-weight: 400;
+  display: flex;
+}
+.container .head .headBottom .pictureTemp h2 span {
+  font-size: 1rem;
+}
+.container .head .headBottom .details {
+  align-self: center;
+}
+.container .head .headBottom .details ul {
+  list-style: none;
+  font-size: 1rem;
+}
+.container .days {
+  display: flex;
+  gap: 50px;
+}
+@media screen and (max-width: 1240px) {
+  .container .days {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.container .days .day {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1240px) {
+  .container .days .day {
+    flex-direction: row;
+    border-bottom: 1px solid gray;
+  }
+}
+.container .days .day .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 1240px) {
+  .container .days .day .top {
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 0 20%;
+  }
+  .container .days .day .top h3 {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container .days .day .top h3 {
+    width: 200px;
+  }
+}
+.container .days .day .top .icon img {
+  width: 100%;
+}
+.container .days .day .bottom {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1240px) {
+  .container .days .day .bottom {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 0 0 60%;
+  }
+}
+.container .days .day .bottom .tempreture {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 640px) {
+  .container .days .day .bottom .tempreture {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.container .days .day .bottom .pollen {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 1240px) {
+  .container .days .day .bottom .pollen {
+    justify-content: center;
+  }
+  .container .days .day .bottom .pollen p {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container .days .day .bottom .pollen {
+    flex-direction: column;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=weather.css.map */
